@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.MachineLearningwithPythonmin{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x:1000px 400px ;
+    background-size: auto;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5daddb33ee92bf44231c2fef/e163d977-3fe5-42da-b959-5b5319027458/machine-learning-in-healthcare.jpg);
+    background-size: cover;
+    height: 350px;
+}
+
+.Machine{
+    padding: 60px 450px 20px 20px;
+    margin: 0px 0px 0px 0px;
+    font-size: 50px;
+    font-family: 'Josefin Sans';
+    text-align: center;
+    color: whitesmoke;
+}
+
+.OUR{
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 40px;
+
+}
+
+.maininfo{
+    font-size: 20px;
+    padding: 100px 10px 10px 10px;
+    margin: 10px 20px 20px 20px;
+    font-style: normal;
+    font-weight: 100;
+}
+.mainimg{
+    box-shadow: 7px 7px 20px 5px rgba(0, 0, 0, 0.475);
+    border-radius: 10px;
+    border: solid rgb(60, 6, 118) 3px;
+    width: auto;
+    height: 350px;
+
+}
+#i{
+    margin: 3% 3% 3% 3%;
+   float: left;
+
+}
+.second{
+clear: left;
+}
+#ii{
+    margin: 3% 3% 3% 3%;
+    float: right;
+
+}
+.third{
+    clear: right;
+}
+#iii{
+    margin: 3% 3% 3% 3%;
+    float: left;
+
+}
+.forth{
+    clear: left;
+}
+
+#iv{
+    margin: 3% 3% 3% 3%;
+    float: right;
+
+}
+.thank{
+    clear: right;
+}
+
+.thank{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin:  20px 20px 20px 20px;
+    font-weight: 50;
+}
+
+time{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 80;
+    color: rgb(132, 131, 131);
+    text-align: center;
+}
+
+.thankimg{
+    display: block;
+    border: none;
+    box-shadow: none;
+    margin: auto;
+    height: 200px;
+    width: auto;
+    transition:  width 2s, height 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+.thankimg:hover{
+    width: 250px;
+    height: 200px;
+}
+
+.footer_div{
+    clear: right;
+}

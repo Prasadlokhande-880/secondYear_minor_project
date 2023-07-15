@@ -1,0 +1,224 @@
+
+  /* Full-width input fields */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  /* Set a style for all buttons */
+  button {
+    background-color: #04aa6d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    box-shadow: 5px 5px 5px 5px rgba(80, 79, 79, 0.522);
+    opacity: 0.9;
+    background-color: rgb(229, 113, 67);
+    font-size: 15px;
+  }
+
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+  }
+
+  @-webkit-keyframes animatezoom {
+    from {
+      -webkit-transform: scale(0);
+    }
+    to {
+      -webkit-transform: scale(1);
+    }
+  }
+
+  @keyframes animatezoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  .cancelbtn2 {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn2,
+  .signupbtn {
+    float: left;
+    width: 50%;
+  }
+
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  /* The Close Button (x) */
+  .close2 {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+
+  .close2:hover,
+  .close2:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+      width: 100%;
+    }
+  }
+
+  .Modal {
+    padding: 20px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .login {
+    margin-top: 50px;
+    width: 200px;
+    position: absolute;
+    left: 52%;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+  .main1 {
+    background-color: rgba(255, 255, 255, 0.197);
+    border-radius: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    border: rgb(255, 255, 255) 3px solid;
+    height: 300px;
+    width: 500px;
+  }
+
+  .sign {
+    margin-top: 50px;
+    width: 200px;
+    position: absolute;
+    left: 32%;
+    border-radius: 5px;
+    font-size: larger;
+  }
+
+  p {
+    color: rgb(73, 72, 72);
+    font-size: 15px;
+    text-align: center;
+  }
